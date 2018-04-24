@@ -9,14 +9,14 @@
 // rastap -- Another node.js test runner, mon.
 //
 
-var assert = require('assert-plus');
 var dashdash = require('dashdash');
 var exeunt = require('exeunt');
 var fs = require('fs');
+var path = require('path');
 
 var rastap = require('../');
 
-//---- globals and constants
+// ---- globals and constants
 
 var OPTIONS = [
     {
@@ -64,7 +64,7 @@ function main() {
         return;
     }
 
-    XXXmain
+    XXXmain;
 }
 
 

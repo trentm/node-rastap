@@ -2,7 +2,7 @@
 # Copyright (c) 2018, Joyent, Inc.
 #
 
-JS_FILES := $(shell find lib -name '*.js')
+JS_FILES := bin/rastap $(shell find lib -name '*.js')
 ESLINT_FILES := $(JS_FILES)
 CLEAN_FILES += ./node_modules
 
