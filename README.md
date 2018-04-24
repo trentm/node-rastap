@@ -67,6 +67,7 @@ TODO: reference docs
 - app-specific plugins for adding assert methods to `t.`? Perhaps that should
   just be explicitly mixin handling at the top of a test file?
 - custom type diffing output for the YAML? I know NAPI had something here
+- node-tap has a `# time=26.792ms` diagnostic
 
 ### concerns
 
