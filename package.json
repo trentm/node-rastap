@@ -25,6 +25,7 @@
     "dashdash": "1.x >=1.8",
     "exeunt": "1.1.1",
     "forkexec": "*",
+    "glob": "7.x",
     "vasync": "*",
     "verror": "^1.10.0"
   },

@@ -12,6 +12,7 @@
 var dashdash = require('dashdash');
 var exeunt = require('exeunt');
 var fs = require('fs');
+var glob = require('glob');
 var path = require('path');
 
 var rastap = require('../');
@@ -64,7 +65,15 @@ function main() {
         return;
     }
 
-    XXXmain;
+    var files = [];
+    opts._args.forEach(function onFilesArg(arg) {
+        files = files.concat(glob.sync(arg));
+    });
+    if (files.length === 0) {
+        return;
+    }
+
+    console.log('TODO: rastap files: %j', files);
 }
 
 
