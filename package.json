@@ -7,14 +7,14 @@
   "bin": {
     "rastap": "./bin/rastap"
   },
-  "homepage": "https://github.com/joyent/rastap",
+  "homepage": "https://github.com/trentm/rastap",
   "keywords": [
     "tap",
     "test"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/joyent/rastap.git"
+    "url": "git://github.com/trentm/rastap.git"
   },
   "engines": {
     "node": ">=4.x"
