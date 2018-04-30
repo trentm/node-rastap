@@ -9,7 +9,9 @@ test runs where it makes sense) and running test files in separate processes
 
 ## status
 
-Currently this is still an experiment.
+Currently this is still an experiment, incomplete, and generally unusable.
+Also **I'm not currently developing this further**. See [RFD
+139](https://github.com/joyent/rfd/blob/master/rfd/0139/README.md) for why.
 
 ## goals
 
@@ -32,6 +34,16 @@ Non-goals:
 - pluggable output formats
 - DWIM-y features
 
+
+TODO: Clarify which from https://github.com/tapjs/node-tap#why-tap are goals
+here. It is a good list.
+
+Why:
+- Tape incorrectly handles skips (see examples/**/skipping.test.js). Node-tap
+  gets it right.
+- ...
+
+
 ## compatibility with node-tape
 
 Incomplete. I *may* attempt to make rastap be as compatible as possible to
@@ -42,6 +54,10 @@ tape to assist with migrating the test suites I work with to rastap.
 Why "rastap"?  It started as a joke play on "rastest" from
 [rastrent](https://www.youtube.com/watch?v=TcK0MYgnHjo). I wanted "tap" or
 "tape" in the name.
+
+## usage
+
+TODO: usage guide
 
 
 ## Reference

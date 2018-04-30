@@ -73,7 +73,7 @@ function main() {
         return;
     }
 
-    console.log('TODO: rastap files: %j', files);
+    console.log('TODO: rastap files: %j with %s', files, rastap);
 }
 
 

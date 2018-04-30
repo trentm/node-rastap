@@ -8,6 +8,6 @@ test('simple nums', function (t) {
 });
 
 test('simple letters', function (t) {
-    t.equal('a', 'b', 'a match');
+    t.equal('a', 'a', 'the a\'s match');
     t.end();
 });
